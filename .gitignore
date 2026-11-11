@@ -18,3 +18,8 @@ next-env.d.ts
 # misc
 .DS_Store
 npm-debug.log*
+
+# Never upload secrets
+.env
+.env*
+!.env.example
